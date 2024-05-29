@@ -1,0 +1,30 @@
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.item {
+  border-radius: 10px;
+  background: #40e0d0;
+  padding: 15px;
+  text-align: center;
+}
+.nav {
+  border-radius: 10px;
+  background: #eee;
+  padding: 15px;
+  text-align: center;
+}
+.title {
+  border-radius: 10px;
+  background: #FFF;
+  padding: 15px;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+p {
+  text-align: left;
+}
